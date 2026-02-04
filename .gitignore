@@ -6,3 +6,5 @@ PLAN.md
 state.json
 .env
 cache/
+__pycache__/
+*.pyc
