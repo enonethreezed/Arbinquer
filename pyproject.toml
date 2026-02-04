@@ -1,0 +1,26 @@
+[project]
+name = "arbinquer"
+version = "0.1.0"
+description = "Warframe Incursions + Arbitrations -> Discord bot"
+readme = "PLAN.md"
+requires-python = ">=3.12"
+dependencies = [
+    "discord.py>=2.4",
+    "httpx>=0.27",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -5,3 +5,4 @@ PLAN.md
 .venv
 state.json
 .env
+cache/
