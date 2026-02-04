@@ -128,3 +128,10 @@ Thanks to https://browse.wf/about for their great work.
 ## Acknowledgments
 
 Thanks to https://browse.wf/about for their great work.
+
+## Orb Vallis Note
+
+Orb Vallis timing can be inconsistent across public sources. While the bot uses
+WarframeStat (`/pc`) for cycles, the reported state/time can differ from other
+apps or in-game displays. For now, Orb Vallis is marked as "Fixing" until a
+stable, matching source is confirmed.
